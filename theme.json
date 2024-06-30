@@ -26,7 +26,44 @@
                     "name": "Poppins",
                     "slug": "poppins",
                     "fontFamily": "Poppins, sans-serif",
-                    "fontFace": []
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/pxiByp8kv8JHgFVrLGT9V15vFP-KUEg.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        },
+                        {
+                            "src": "file:./assets/fonts/pxiByp8kv8JHgFVrLEj6V15vFP-KUEg.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        },
+                        {
+                            "src": "file:./assets/fonts/pxiByp8kv8JHgFVrLCz7V15vFP-KUEg.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        },
+                        {
+                            "src": "file:./assets/fonts/pxiByp8kv8JHgFVrLDD4V15vFP-KUEg.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        },
+                        {
+                            "src": "file:./assets/fonts/pxiByp8kv8JHgFVrLBT5V15vFP-KUEg.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        },
+                        {
+                            "src": "file:./assets/fonts/pxiEyp8kv8JHgFVrFJXUc1NECPY.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Poppins"
+                        }
+                    ]
                 }
             ]
         },
@@ -35,8 +72,10 @@
     "styles": {
         "color": {
             "background": "#5553c5",
+            "gradient": "linear-gradient(90deg,rgb(1,1,1) 1%,rgb(71,84,120) 100%)",
             "text": "var(--wp--preset--color--white)"
         },
+        "css": ".gg-code-editor {\n    color: #d8dee9;\n    padding: 20px;\n    border-radius: 5px;\n    font-family: 'Source Code Pro', monospace;\n    overflow-x: auto;\n    width: 80%;\n    max-width: 800px;\n    margin: 0 auto;\n}\n\n.gg-code-editor code {\n    display: block;\n    white-space: pre-wrap;\n    word-break: break-word;\n}\n\n.gg-code-editor .gg-line-number {\n    display: inline-block;\n    width: 30px;\n    text-align: right;\n    margin-right: 10px;\n    color: #4c566a;\n    user-select: none;\n}\n\n.gg-code-editor .gg-keyword {\n    color: #81a1c1;\n}\n\n.gg-code-editor .gg-string {\n    color: #a3be8c;\n}\n\n.gg-code-editor .gg-comment {\n    color: #616e88;\n    font-style: italic;\n}\n\n.gg-code-editor .gg-function {\n    color: #8fbcbb;\n}\n\n.gg-code-editor .gg-variable {\n    color: #d08770;\n}\n\n\n\n.tech-stack-marquee {\n    overflow: hidden;\n    white-space: nowrap;\n    width: 80%;\n}\n\n.marquee-content {\n    display: grid;\n    grid-template-rows: repeat(4, 1fr); /* Adjust the number of rows */\n    animation: marquee 20s linear infinite;\n}\n\n@keyframes marquee {\n    0% {\n        transform: translateY(0%);\n    }\n    100% {\n        transform: translateY(-50%); /* Adjust based on the number of rows */\n    }\n}\n\n.marquee-row {\n    display: flex;\n    justify-content: space-around;\n}\n\n.tech-item {\n    display: inline-block;\n    padding: 0 20px;\n    font-size: 1.2em;\n    color: #88c0d0;\n}\n\n\n\n.gg-p-highlight {\n  color: #5553C5;\n}",
         "elements": {
             "link": {
                 "color": {
