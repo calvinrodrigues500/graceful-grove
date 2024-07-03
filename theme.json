@@ -25,30 +25,6 @@
                 }
             ]
         },
-        "color": {
-            "palette": [
-                {
-                    "color": "#343330",
-                    "name": "Bg gray 1",
-                    "slug": "custom-bg-gray-1"
-                },
-                {
-                    "color": "#f7f9fb",
-                    "name": "Off White 1",
-                    "slug": "custom-off-white-1"
-                },
-                {
-                    "color": "#343330",
-                    "name": "Footer Bg 1",
-                    "slug": "custom-footer-bg-1"
-                },
-                {
-                    "color": "#000",
-                    "name": "Color 1",
-                    "slug": "custom-color-1"
-                }
-            ]
-        },
         "layout": {
             "contentSize": "1520px",
             "wideSize": "1000px"
